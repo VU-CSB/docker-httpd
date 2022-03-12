@@ -1,6 +1,6 @@
 FROM centos/systemd
 
-MAINTAINER "Your Name" <you@example.com>
+MAINTAINER "Bill Riner" <bill.riner@vanderbilt.edu>
 
 RUN yum -y install httpd; yum clean all; systemctl enable httpd.service
 
